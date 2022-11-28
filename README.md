@@ -12,7 +12,7 @@ top to bottom, occupying the next available space within the column.
 
 ## Demo
 
-https://connect-four-react.netlify.com/
+Deployed site: https://c-4.netlify.app/
 
 ![Connect 4 Demo](demo/connect-four-demo.gif)
 
