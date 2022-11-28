@@ -1,0 +1,66 @@
+.boardGrid {
+  background-color: #bec7cf;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.boardRow {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}
+
+.circle:hover {
+  cursor: pointer;
+}
+
+.free {
+  background-color: #ffffff;
+}
+
+.staff {
+  background-color: #ad0a41;
+}
+
+.contestant {
+  background-color: #01373d;
+}
+
+.newGameButton {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .boardGrid {
+    width: 300px;
+  }
+
+  .circle {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+/* @media only screen and (max-width: 1000px) {
+  .boardGrid {
+    width: 70%;
+  }
+
+  .circle {
+    width: 40px;
+    height: 40px;
+  }
+} */
